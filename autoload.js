@@ -21,7 +21,7 @@ $.ajax({
 
 //初始化看板娘，会自动加载指定目录下的waifu-tips.json
 $(window).on("load", function() {
-	initWidget(live2d_path + "waifu-tips.json", "http://snap.zhtg.red/live2d");
+	initWidget(live2d_path + "waifu-tips.json", "http://api.zhtg.red/live2d");
 });
 //initWidget第一个参数为waifu-tips.json的路径
 //第二个参数为api地址（无需修改）
